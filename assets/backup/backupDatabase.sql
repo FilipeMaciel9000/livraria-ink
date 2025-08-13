@@ -56,7 +56,7 @@ INSERT INTO usuarios (nome, email, senha, tipo, ativo, created_at, updated_at)
 VALUES (
     'Administrador',
     'admin@livrariank.com',
-    '$2y$10$j4itlUavNBOOt1c3XnXYouuVo2s8nqolTuMeCd4IiNftuyNzahHBO', -- senha: #Drowssap1234
+    '$2y$10$j4itlUavNBOOt1c3XnXYouuVo2s8nqolTuMeCd4IiNftuyNzahHBO', 
     'admin',
     1,
     NOW(),
@@ -68,7 +68,7 @@ INSERT INTO usuarios (nome, email, senha, tipo, ativo, created_at, updated_at)
 VALUES (
     'João Silva',
     'joao@livrariank.com',
-    '$2y$10$j4itlUavNBOOt1c3XnXYouuVo2s8nqolTuMeCd4IiNftuyNzahHBOi', -- senha: #Drowssap1234
+    '$2y$10$j4itlUavNBOOt1c3XnXYouuVo2s8nqolTuMeCd4IiNftuyNzahHBOi',
     'funcionario',
     1,
     NOW(),
