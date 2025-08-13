@@ -56,7 +56,7 @@ INSERT INTO usuarios (nome, email, senha, tipo, ativo, created_at, updated_at)
 VALUES (
     'Administrador',
     'admin@livrariank.com',
-    '$2y$10$j4itlUavNBOOt1c3XnXYouuVo2s8nqolTuMeCd4IiNftuyNzahHBO', 
+    'Fidelio', 
     'admin',
     1,
     NOW(),
@@ -68,7 +68,7 @@ INSERT INTO usuarios (nome, email, senha, tipo, ativo, created_at, updated_at)
 VALUES (
     'João Silva',
     'joao@livrariank.com',
-    '$2y$10$j4itlUavNBOOt1c3XnXYouuVo2s8nqolTuMeCd4IiNftuyNzahHBOi',
+    'Fidelio',
     'funcionario',
     1,
     NOW(),
