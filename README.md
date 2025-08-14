@@ -134,6 +134,7 @@ livraria-ink/
 
 ---
 
-## 📝 Licença
+## 📜 Licença
 
-Projeto sob licença [MIT](LICENSE).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Este projeto está sob a licença MIT — veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
