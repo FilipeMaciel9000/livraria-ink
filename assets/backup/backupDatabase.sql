@@ -25,17 +25,29 @@ CREATE TABLE livros (
 
 -- Inserindo dados na tabela livros
 INSERT INTO livros (titulo, autor, editora, preco, quantidade, status) VALUES
-('Café com Deus Pai 2024: Porções Diárias de Paz', 'Júnior Rostirola', 'Vélos', 29.90, 100, 'Comum'),
-('A Biblioteca da Meia-Noite', 'Matt Haig', 'Bertrand Brasil', 39.90, 100, 'Comum'),
-('É Assim que Acaba', 'Colleen Hoover', 'Galera Record', 49.90, 100, 'Comum'),
-('É Assim que Começa', 'Colleen Hoover', 'Galera Record', 49.90, 100, 'Comum'),
-('O Homem Mais Rico da Babilônia', 'George S. Clason', 'HarperCollins', 29.90, 100, 'Comum'),
-('Tudo é Rio', 'Carla Madeira', 'Record', 39.90, 100, 'Comum'),
-('A Psicologia Financeira', 'Morgan Housel', 'HarperCollins', 49.90, 100, 'Comum'),
-('Verity', 'Colleen Hoover', 'Galera Record', 49.90, 100, 'Comum'),
-('Perigoso!', 'Tim Warnes', 'Cia. das Letrinhas', 19.90, 100, 'Comum'),
-('Como Fazer Amigos e Influenciar Pessoas', 'Dale Carnegie', 'Sextante', 29.90, 100, 'Comum');
 
+-- Comum
+('Café com Deus Pai 2024: Porções Diárias de Paz', 'Júnior Rostirola', 'Vélos', 29.90, 100, 'Comum'),
+('A Biblioteca da Meia-Noite', 'Matt Haig', 'Bertrand Brasil', 39.90, 50, 'Comum'),
+
+-- Raro
+('O Senhor dos Anéis - Volume Único (Edição Especial)', 'J.R.R. Tolkien', 'HarperCollins', 199.90, 5, 'Raro'),
+
+-- Coleção
+('Harry Potter - Coleção Completa (7 Volumes)', 'J.K. Rowling', 'Rocco', 349.90, 10, 'Coleção'),
+('As Crônicas de Nárnia - Box Completo', 'C.S. Lewis', 'WMF Martins Fontes', 199.90, 8, 'Coleção'),
+
+-- Avulso
+('Dom Casmurro', 'Machado de Assis', 'Editora Ática', 19.90, 30, 'Avulso'),
+('O Cortiço', 'Aluísio Azevedo', 'Editora Saraiva', 22.90, 25, 'Avulso'),
+
+-- Autografado
+('Sapiens: Uma Breve História da Humanidade (Autografado)', 'Yuval Noah Harari', 'L&PM', 129.90, 3, 'Autografado'),
+('Do Mil ao Milhão (Autografado)', 'Thiago Nigro', 'HarperCollins', 89.90, 4, 'Autografado'),
+
+-- Mais alguns comuns para completar
+('Verity', 'Colleen Hoover', 'Galera Record', 49.90, 100, 'Comum'),
+('Como Fazer Amigos e Influenciar Pessoas', 'Dale Carnegie', 'Sextante', 29.90, 100, 'Comum');
 
 -- Criação da tabela de dados dos usuários
 -- Tabela de usuários
